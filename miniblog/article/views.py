@@ -40,7 +40,6 @@ class ArticleView(APIView):
             "message": "Article with id `{}` has been deleted.".format(pk)
         }, status=204)
 
-
 '''
 from rest_framework import viewsets
 
