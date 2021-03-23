@@ -9,8 +9,8 @@ urlpatterns = [
     path('articles/', ArticleView.as_view()),
     path('articles/<int:pk>', ArticleView.as_view()),
 ]
-
 '''
+
 from rest_framework.routers import DefaultRouter
 
 from .views import ArticleViewSet
